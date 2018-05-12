@@ -1,4 +1,32 @@
-body {
+$heading-color: rgb(249, 250, 252);
 
+body {
+	margin: 0; 
+	border: 0;
+	font-size: 100%; 
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+	font-size: 10em; 
+	padding: 0; 
+	text-align: center; 
+	clear: both; 
+	color: $heading-color; 
+	font-family: 'Playfair Display', serif;
+	margin: 0; 
+}
+
+h2 {
+	margin: 0; 
+	font-size: 3em; 
+	text-align: center; 
+	clear: both; 
+	color: $heading-color; 
+	text-transform: uppercase; 
+	font-family: 'Roboto', sans-serif;
 }
 
